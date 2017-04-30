@@ -14,5 +14,7 @@ def main():
 
 	arrZeros[(4, 7, 1),(5, 7, 8)] = 1 #Sets arrZeros[x's, y's] to the value of the RHS. x's and y's have been entered as tuples
 	print(arrZeros)
+	plt.spy(arrZeros)
+	plt.show()
 
 main()
